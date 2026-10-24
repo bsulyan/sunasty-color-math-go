@@ -1,0 +1,33 @@
+{
+  "title": "sunasty-color-math-go: sRGB, OKLCH, and WCAG 2.1 Contrast Calculation in Go",
+  "description": "Zero-dependency Go module for sRGB gamma linearization, OKLCH conversions, and WCAG 2.1 accessibility contrast calculation. Developed for the Sunasty web tools platform.",
+  "creators": [
+    {
+      "name": "Sulyan, Bastien",
+      "affiliation": "Sunasty"
+    }
+  ],
+  "access_right": "open",
+  "license": "MIT",
+  "keywords": [
+    "color space",
+    "oklch",
+    "wcag",
+    "accessibility",
+    "go",
+    "golang"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://sunasty.com",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://github.com/bsulyan/sunasty-color-math-go",
+      "relation": "isDerivedFrom",
+      "scheme": "url"
+    }
+  ],
+  "upload_type": "software"
+}
