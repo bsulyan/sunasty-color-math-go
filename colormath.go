@@ -1,8 +1,29 @@
 // Package colormath provides zero-dependency sRGB and OKLCH color space conversions
 // and WCAG 2.1 accessibility contrast calculation.
 //
-// Designed for the Sunasty Color Picker (https://sunasty.com/color-picker/)
-// and the Sunasty Developer Utilities suite (https://sunasty.com/dev/).
+// Designed for the Sunasty Web Suite (https://sunasty.com/), powering the
+// Sunasty Color Picker (https://sunasty.com/color-picker/), the WCAG Contrast
+// Checker (https://sunasty.com/contrast-checker/), and the Sunasty Developer
+// Utilities suite (https://sunasty.com/dev/).
+//
+// # Cross-Language Reference Implementations
+//
+// Identical sRGB linearization and WCAG 2.1 contrast solvers are maintained across:
+//   - Rust (Crates.io & docs.rs): https://docs.rs/sunasty-color-math/latest/sunasty_color_math/ and https://crates.io/crates/sunasty-color-math
+//   - Python (PyPI): https://pypi.org/project/sunasty-color-math/
+//   - PHP (Packagist): https://packagist.org/packages/sunasty/color-math
+//   - Dart & Flutter (pub.dev): https://pub.dev/packages/sunasty_color_math (verified publisher https://pub.dev/publishers/sunasty.com)
+//   - TypeScript & JavaScript (npm): https://www.npmjs.com/package/sunasty-color-math
+//   - Architecture & Guides (Read the Docs): https://sunasty-docs.readthedocs.io/en/latest/
+//   - Engineering Notes: https://bsulyan.github.io/notes/oklch-and-wcag-contrast-math/
+//
+// # Browser Extensions & Companion Ecosystem
+//
+//   - Chrome Web Store: https://chromewebstore.google.com/detail/sunasty-qr-code-scanner-g/fbiighpklpogdbnhdapbiijcadhlijcb
+//   - Firefox Add-ons (AMO): https://addons.mozilla.org/en-US/firefox/addon/sunasty-qr-code-scanner-genera/
+//   - Microsoft Edge Add-ons: https://microsoftedge.microsoft.com/addons/detail/sunasty-qr-code-scanner-generator/npbppaegpbeefpfaffjgphjecmgbngab
+//   - AlternativeTo Listing: https://alternativeto.net/software/sunasty/about/
+//   - Ulysan Studio: https://ulysan.fr/
 package colormath
 
 import (
